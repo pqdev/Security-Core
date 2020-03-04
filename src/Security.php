@@ -102,6 +102,6 @@ class Security
             return $input;
         }
 
-        return UTF8::remove_invisible_characters($input, true);
+        return UTF8::remove_invisible_characters($input, false);
     }
 }
